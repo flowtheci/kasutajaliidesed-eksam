@@ -12,4 +12,9 @@ export class CookieBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  destroyBanner() {
+    // Destroy the current component and remove from view
+    document.getElementById('cookie')!.remove();
+  }
+
 }

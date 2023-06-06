@@ -4,11 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CookieBarComponent } from './cookie-bar/cookie-bar.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { PageContentComponent } from './page-content/page-content.component';
+import { LandingComponent } from './landing/landing.component';
+import { InfoComponent } from './info/info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CookieBarComponent
+    CookieBarComponent,
+    NavbarComponent,
+    PageContentComponent,
+    LandingComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
